@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Slabo+27px&family=Source+Sans+Pro:wght@200&family=Tiro+Tamil&family=Varela+Round&family=Zilla+Slab:wght@300&display=swap');
+
 *,
 *:before,
 *:after {
@@ -15,16 +16,19 @@
   padding: 250px 100px 30px 220px;
   overflow: hidden;
 }
+
 #logo img {
   width: 60px;
   margin: 0px 10px;
   height: 60px;
   border-radius: 50px;
 }
+
 #logo img:hover {
   transition: all 0.5s ease-in-out;
   transform: rotate(360deg);
 }
+
 body {
   width: 100vw;
   height: 100vh;
@@ -34,7 +38,8 @@ body {
   background-color: #e6ffee;
   font-family: "Nunito", sans-serif;
 }
-.password-conatiner{
+
+.password-conatiner {
   display: inline-block;
 }
 
@@ -456,7 +461,9 @@ button {
 }
 
 .navbar .navbar-brand {
-  margin: 0;
+  margin-right: 345px;
+  margin-left: -27px;
+  margin-top: 5px;
   color: #ffffff;
   font-size: 45px;
   line-height: 0px;
@@ -477,6 +484,7 @@ button {
 }
 
 .navbar .navbar-brand img {
+  margin-left: 12px;
   max-width: 100%;
   max-height: 40px;
 }
@@ -551,42 +559,54 @@ button {
     box-shadow: none;
   }
 }
-#navbar{
+
+#navbar {
   padding: 10px 0px;
   border-radius: 0px;
 }
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-width: 100%;
-padding-right: 0px;
-padding-left: 0px;
- margin-right: 0;
- margin-left: 0;
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
-#logo{
-margin: 0px 43px;
+
+#logo {
+  margin: 0px 43px;
 }
+
 #logo img {
-width: 56px;
-margin: 0px 10px;
-height: 56px;
-border-radius: 50px;
+  width: 56px;
+  margin: 0px 10px;
+  height: 56px;
+  border-radius: 50px;
 }
+
 .navbar-brand {
-height: 50px;
-padding: 20px 15px;
-margin-left: 6px;
+  height: 50px;
+  padding: 20px 15px;
+  margin-left: 6px;
 }
-#navbarCollapse{
-padding-left: 165px;
-padding-right: 0px;
+
+#navbarCollapse {
+  padding-left: 165px;
+  padding-right: 0px;
 }
-#mynav{
-align-items: center;
-width:120vw;
+
+#mynav {
+  align-items: center;
+  width: 120vw;
 }
-#mynav a{
-font-family: 'Tiro Tamil', serif !important;
-text-transform: none;
+
+#mynav a {
+  font-family: 'Tiro Tamil', serif !important;
+  text-transform: none;
   font-size: 21px;
   font-weight: 500;
   padding: 0px 18px;
@@ -594,9 +614,10 @@ text-transform: none;
   color: #ffffff;
   border-radius: 0px;
 }
-#mynav a:hover{
-transition: all 0.3s ease-in;
-color: rgb(255, 173, 20);
-background: #006622;
-transform: scale(1.1);
+
+#mynav a:hover {
+  transition: all 0.3s ease-in;
+  color: rgb(255, 173, 20);
+  background: #006622;
+  transform: scale(1.1);
 }
